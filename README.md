@@ -15,7 +15,7 @@ function App() {
             <Navbar />
             <header className="App-header">
 
-                <p>Good Luck</p>
+                <p>Good Luck Taiwo Ogunleye!</p>
 
             </header>
         </div>
