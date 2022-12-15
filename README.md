@@ -43,3 +43,7 @@ function Navbar() {
 
 export default Navbar
 ```
+
+
+#### Deployed app at https://taiwo-ogunleye-react-app.netlify.app/
+
