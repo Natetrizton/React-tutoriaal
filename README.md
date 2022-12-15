@@ -50,6 +50,8 @@ export default Navbar
 Syntax for Navbar component using arrow function:
 
 ```js
+import React from 'react'
+
 const Navbar = () => {
     return (
         <nav className='navbar'>
