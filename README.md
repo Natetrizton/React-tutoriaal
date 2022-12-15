@@ -47,6 +47,24 @@ function Navbar() {
 export default Navbar
 ```
 
+Syntax for Navbar component using arrow function:
+
+```js
+const Navbar = () => {
+    return (
+        <nav className='navbar'>
+            <h2>I am Navbar</h2>
+            <h1>The Main Heading</h1>
+            <div className='links'></div>
+            <p><a href='/'>Home</a></p>
+            <p><a href='/create'>New Page</a></p>
+        </nav >
+    )
+}
+
+
+export default Navbar
+```
 
 #### Deployed app at https://taiwo-ogunleye-react-app.netlify.app/
 
