@@ -7,7 +7,7 @@ function App() {
     return (
         <div className="App">
             <Navbar />
-            <header className="App-header">
+            <header className="content">
                 <Home />
 
                 <p>Good Luck Taiwo Ogunleye!</p>
