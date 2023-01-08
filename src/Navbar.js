@@ -17,11 +17,14 @@ const Navbar = () => {
         <nav className='navbar'>
             <h2>I am Navbar</h2>
             <h1>The Main Heading</h1>
-            <div className='links'></div>
+            <div className='links'>
             <p><a href='/'>Home</a></p>
-            <p><a href='/create'>New Page</a></p>
+            <a href='/create' style={{ 
+          color: 'white', 
+          backgroundColor: '#f1356d',
+          borderRadius: '8px' }}>New Page</a></div>
         </nav >
-    )
+    );
 }
 
 
