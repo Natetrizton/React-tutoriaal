@@ -3,27 +3,31 @@ import Navbar from './Navbar';
 import Home from './Home';
 import Create from "./Create";
 import Bloglist from "./Bloglist"; 
+import BlogDetails from "./BlogsDetails";
 /* import NotFound from "./NotFound"; */
 
 function App() {
-    return (
+    return (   
         <div className="App">
             <BrowserRouter>
                 <Navbar />
                 <div className="content">
                     <Routes>
+                        
                         <Route
-                            path="/"
+                           exact path="/"
                             element={<Home />}
-                        />
+                        /> 
                         <Route
                             path="/create"
                             element={<Create />}
                         />
-                        <Route
+                    
+                         <Route
                             path="/blogs/:id"
-                            element={<Bloglist />}
+                            element={<BlogDetails />}
                         />
+                        
                     
                     </Routes> 
                 </div>
