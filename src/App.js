@@ -4,6 +4,7 @@ import Home from './Home';
 import Create from "./Create";
 import Bloglist from "./Bloglist"; 
 import BlogDetails from "./BlogsDetails";
+import NotFound from "./Notfound";
 /* import NotFound from "./NotFound"; */
 
 function App() {
@@ -27,7 +28,10 @@ function App() {
                             path="/blogs/:id"
                             element={<BlogDetails />}
                         />
-                        
+                        <Route
+                            path="*"
+                            element={<NotFound />}
+                        />
                     
                     </Routes> 
                 </div>
